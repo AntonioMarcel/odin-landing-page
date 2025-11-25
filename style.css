@@ -92,7 +92,7 @@ a {
     padding-bottom: 48px;
 }
 
-.title {
+.info-title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -114,7 +114,7 @@ a {
     gap: 8px;
 }
 
-.img {
+.card-img {
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
@@ -124,7 +124,6 @@ a {
 .quote {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 48px 0;
@@ -134,7 +133,7 @@ a {
     width: 600px;
 }
 
-.quote-container .text {
+.quote-container .quote-text {
     font-size: 24px;
     color: #1f2937;
     font-weight: 300;
