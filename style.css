@@ -39,32 +39,38 @@ a {
     color: #e5e7eb
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .header-content {
     display: flex;
     justify-content: space-around;
     padding-top: 48px;
 }
 
-.modal {
+.header-modal {
     width: 400px;
     gap: 8px;
     display: flex;
     flex-direction: column;
 }
 
-.modal-title {
+.header-modal-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 
 }
 
-.modal-text {
+.header-modal-text {
     font-size: 18px;
     color: #e5e7eb;    
 }
 
-.modal-button {
+.header-modal-button {
     background: #3882f6;
     border: 1px solid #3882f6;
     color: white;
@@ -143,4 +149,66 @@ a {
     display: flex;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.cta-content {
+    width: 1000px;
+    height: 150px;
+    background-color:#3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta-modal {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-modal-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-modal-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.cta-modal-text {
+    font-size: 14px;
+    color: #e5e7eb;    
+}
+
+.cta-modal-sign-up {
+    background: #3882f6;
+    border: 1px solid #f9faf8;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
 }
